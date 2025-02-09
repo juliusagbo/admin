@@ -88,7 +88,7 @@ $loans = $conn->query("SELECT id, applicant_name, amount, status FROM loans");
 
 <div class="container">
     <h1>Admin Dashboard</h1>
-    <a href="logout.php"><button class="btn logout">Logout</button></a>
+    <a href="admin-logout.php"><button class="btn logout">Logout</button></a>
 
     <table>
         <tr>
